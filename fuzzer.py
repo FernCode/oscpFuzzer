@@ -136,7 +136,7 @@ def USER_Fuzz(RHOST, RPORT, flag):
             answers = Offset_Querey(querey)
             print(str(querey))
             print(str(answers))
-
+``
 def PASS_Fuzz(RHOST, RPORT, flag):
     if flag == 0:
         max_size = input("When shall we give up?: ")
